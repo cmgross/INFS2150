@@ -67,12 +67,14 @@
   <ItemGroup>
     <Content Include="images\grassfield.jpg" />
     <Content Include="images\MacLeod_tartan.png" />
+    <Content Include="contact.html" />
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="LicenseInfo.txt" />
     <Content Include="scripts\modernizr-1.6.min.js" />
     <Content Include="scripts\semantic.js" />
     <Content Include="desktop.css" />
+    <Content Include="todo.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
