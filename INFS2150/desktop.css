@@ -1,10 +1,16 @@
-﻿/* Pittsburgh Highland Games - Charles Gross Final Project
-http://www.hicksdesign.co.uk/else/cssnav/index.html  */
+﻿/* Pittsburgh Highland Games - Charles Gross Final Project  */
 
 /*Font faces*/
 @font-face {
-    font-family: 'CinzelDecorateRegular';
+    font-family: 'CinzelDecorativeRegular';
     src: url('fonts/CinzelDecorative-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CinzelDecorativeBold';
+    src: url('fonts/CinzelDecorative-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,10 +29,14 @@ article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, l
     padding: 0;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 body {
     background: #ffffff;
-    /*background: url("images/blackwatchtartan.jpg");*/
-    background: url("images/macleod.png");
+    background: url("images/blackwatchtartan.jpg");
+    /*background: url("images/macleod.png");*/
     background-repeat: repeat;
     color: #747474;
     font-size: 13px; /*change this to em*/
@@ -34,6 +44,10 @@ body {
     /* min-width: 320px; not supported on ie8, firefox 4, opera 11 and safari 5*/
     margin-left: auto;
     margin-right: auto;
+}
+
+h1, h2, h3 {
+    font-family: CinzelDecorativeBold, georgia, "times new roman", times, serif;
 }
 
 a:link {
@@ -63,6 +77,7 @@ a:active {
     position: relative;
     border-left: 2px solid gray;
     border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 #header {
@@ -76,7 +91,7 @@ a:active {
     margin-bottom: 25px;
     text-align: center;
     border-top: 1px solid #bbb;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     font-size: 11px;
 }
 
@@ -88,13 +103,13 @@ a:active {
     border-top: 1px solid #bbb;
     /*width: 95%;*/
     padding: 10px 0;
-    font-family: CinzelDecorateRegular, georgia, "times new roman", times, serif;
+    font-family: CinzelDecorativeBold, georgia, "times new roman", times, serif;
 }
 
     #navbar li {
         display: inline;
         list-style-type: none;
-        padding: 2em;
+        padding: 1em;
     }
 
 #mainnav a:link {
@@ -116,9 +131,7 @@ a:active {
     color: #a0ce4e;
     text-decoration: underline;
 }
-/*End ID selectors*/
 
-/*Class selectors*/
 #footer p.left {
     float: left;
 }
@@ -126,10 +139,27 @@ a:active {
 #footer p.right {
     float: right;
 }
+/*End ID selectors*/
 
-.primaryarticle {
+/*Class selectors*/
+.pagecontent {
     margin: 25px;
 }
 
+/*.caption {
+    font-family: Arial;
+    font-weight: bold;
+    color: #123456;
+}*/
+
+.twitter-widget {
+    width: 100px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 /*End Class selectors*/
 

@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="fonts\Arimo-Regular.ttf" />
     <Content Include="fonts\CinzelDecorative-Regular.ttf" />
+    <Content Include="fonts\CinzelDecorative-Bold.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,13 +71,17 @@
     <Content Include="contact.html" />
     <Content Include="images\blackwatchtartan.jpg" />
     <Content Include="images\logo1.png" />
+    <Content Include="images\macleod.png" />
     <Content Include="images\PittsburghHighlandGamesLogo.png" />
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="LicenseInfo.txt" />
+    <Content Include="scripts\facebook.js" />
     <Content Include="scripts\modernizr-1.6.min.js" />
     <Content Include="scripts\semantic.js" />
     <Content Include="desktop.css" />
+    <Content Include="scripts\slideshow.js" />
+    <Content Include="scripts\twitter.js" />
     <Content Include="todo.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
