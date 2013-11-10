@@ -17,12 +17,28 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    color: #a0ce4e;
+}
+
+a:active {
+    color: #a0ce4e;
+}
 /*End Type selectors*/
 
 
 /*ID selectors*/
 #wrapper {
-    width: 1000px;
+    width: 864px;
     margin-left: auto;
     margin-right: auto;
     background: #ffffff;
@@ -37,9 +53,11 @@ body {
 #footer {
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 25px;
     text-align: center;
     border-top: 1px solid #bbb;
     padding: 10px 0;
+    font-size: 11px;
 }
 
 #navbar {
@@ -56,7 +74,7 @@ body {
         display: inline;
         list-style-type: none;
         padding: 2em;
-    }
+}
 
 #mainnav a:link {
     color: #333;
@@ -80,10 +98,11 @@ body {
 /*End ID selectors*/
 
 /*Class selectors*/
-.align-left {
+#footer p.left {
     float: left;
 }
-.align-right {
+
+#footer p.right {
     float: right;
 }
 
