@@ -1,183 +1,91 @@
-﻿/* Murfreesboro Regional Soccer League 
-Charles Gross HTML5 Unit O, Independent Challenge 1*/
-article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, header, nav, p, section, table, th, td {
+﻿/* Pittsburgh Highland Games - Charles Gross Final Project
+http://www.hicksdesign.co.uk/else/cssnav/index.html  */
+
+/*Type selectors*/
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
     margin: 0;
     padding: 0;
 }
 
-article, aside, figure, header, footer, nav {
-    display: block;
-}
-
-article {
-    padding: 0 0.5em;
-}
-
-    article p {
-        padding-bottom: 0.5em;
-    }
-
-    article li {
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    article ul {
-        padding-top: 0;
-        padding-bottom: 0.5em;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
 body {
-    font-family: tahoma, arial, helvetica, sans-serif;
-    background: green;
-    background: url("images/MacLeod_tartan.png");
-}
-
-div#red, div#blue {
-    float: left;
-    margin-right: 40px;
-}
-
-figure {
-    float: right;
-    padding: 1em 0 0.25em 0.5em;
-    display: block;
-}
-
-footer {
-    clear: both;
-}
-
-h1, #affiliation {
-    background: rgb(221, 221, 221);
-    background: rgba(221, 221, 221, 0.3);
-}
-
-h1, h2, #affiliation {
-    text-align: center;
-    padding: 0.1em;
-    font-family: georgia, "times new roman", times, serif;
-    color: ghostwhite;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-    padding: 0.5em 0;
-}
-
-h3 {
-    padding: 0.25em;
-}
-
-header {
-    background: white;
-    background: url("images/MacLeod_tartan.png");
-}
-
-table {
-    margin: 1em 0;
-    border-collapse: collapse;
-}
-
-td {
-    border: 1px solid #101010;
-    padding: 0.25em;
-}
-
-th {
-    border: 1px solid #101010;
-    padding: 0.25em;
-    background: #e0e0e0;
-}
-
-#affiliation {
-    font-size: 1.25em;
-}
-
-#box {
-    width: 960px;
+    background: #ffffff;
+    background: url("images/blackwatchtartan.jpg");
+    background-repeat: repeat;
+    color: #747474;
+    font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif; /*change this to em*/
+    /* min-width: 320px; not supported on ie8, firefox 4, opera 11 and safari 5*/
     margin-left: auto;
     margin-right: auto;
-    background: white;
-    border: 0.35em solid #101010;
+}
+/*End Type selectors*/
+
+
+/*ID selectors*/
+#wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
     position: relative;
 }
 
-#contact {
-    text-align: right;
-    padding: 0.5em;
-    color: white;
-    background: #101010;
-    margin: 0;
-}
-
-#logo img {
-    display: block;
-    float: left;
-}
-
-#mainnav {
+#header {
+    padding: 30px 0;
     text-align: center;
-    background: #101010;
-    margin: 0;
-    padding: 0.25em;
 }
 
-#mainnav li {
-    display: inline;
-    list-style-type: none;
-    padding: 0.25em 0.25em 0.25em 1.5em;
-    margin-right: 0.5em;
+#footer {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    border-top: 1px solid #bbb;
+    padding: 10px 0;
+}
+
+#navbar {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    /*width: 95%;*/
+    padding: 10px 0;
+}
+
+#navbar li {
+        display: inline;
+        list-style-type: none;
+        padding: 2em;
     }
 
-
-.left {
-    float: left;
-}
-
-.toplink {
-    text-align: left;
-    padding: 0 1em 0 0;
-    margin: 0;
-}
-
-a:link {
-    color: #663300;
-}
-
-a:visited {
-    color: #663300;
-}
-
-a:hover {
-    color: black;
-}
-
-a:active {
-    color: #663300;
-}
-
 #mainnav a:link {
-    color: #D8B000;
+    color: #333;
     text-decoration: none;
 }
 
 #mainnav a:visited {
-    color: #D8B000;
+    color: #333;
+    text-decoration: none;
 }
 
 #mainnav a:hover {
-    color: white;
+    color: #a0ce4e;
+    text-decoration: underline;
 }
 
 #mainnav a:active {
-    color: #D8B000;
+    color: #a0ce4e;
+    text-decoration: underline;
 }
+/*End ID selectors*/
+
+/*Class selectors*/
+.align-left {
+    float: left;
+}
+.align-right {
+    float: right;
+}
+
+/*End Class selectors*/
+

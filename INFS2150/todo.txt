@@ -1,1 +1,27 @@
-﻿lighten tartan image
+﻿//TODO look at modernizer and semantic stuff, do I need them?
+
+
+
+
+
+
+NEW DESIGN: http://www.cssm.org/
+http://camospecs.com/Article.asp?FictionID=22
+
+http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
+http://html5reset.org/
+http://www.my-html-codes.com/html-5-coding
+
+aside column allows you to move between content in the page itself
+
+http://www.htmlandcssbook.com/code-samples/chapter-09/
+
+http://www.carmichael.org/carmichael/?page_id=36
+
+http://www.ruralhillscottishfestivals.net/History.asp
+look at this page for layout
+
+http://www.standrewsmodesto.org/Ghistory.php
+http://tucsoncelticfestival.org/
+http://www.everythingaboutweb.com/html5-two-column-css-layout/
+http://www.designzzz.com/website-layout-tutorial-html-5-css-3/

@@ -65,9 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\grassfield.jpg" />
-    <Content Include="images\MacLeod_tartan.png" />
     <Content Include="contact.html" />
+    <Content Include="images\blackwatchtartan.jpg" />
+    <Content Include="images\logo1.png" />
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="LicenseInfo.txt" />
