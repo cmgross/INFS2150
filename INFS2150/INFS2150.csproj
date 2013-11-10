@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\Arimo-Regular.ttf" />
+    <Content Include="fonts\CinzelDecorative-Regular.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,6 +70,7 @@
     <Content Include="contact.html" />
     <Content Include="images\blackwatchtartan.jpg" />
     <Content Include="images\logo1.png" />
+    <Content Include="images\PittsburghHighlandGamesLogo.png" />
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="LicenseInfo.txt" />

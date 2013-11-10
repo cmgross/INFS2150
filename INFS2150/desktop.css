@@ -1,6 +1,22 @@
 ﻿/* Pittsburgh Highland Games - Charles Gross Final Project
 http://www.hicksdesign.co.uk/else/cssnav/index.html  */
 
+/*Font faces*/
+@font-face {
+    font-family: 'CinzelDecorateRegular';
+    src: url('fonts/CinzelDecorative-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArimoRegular';
+    src: url('fonts/Arimo-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*End Font faces*/
 /*Type selectors*/
 article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
     margin: 0;
@@ -9,10 +25,12 @@ article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, l
 
 body {
     background: #ffffff;
-    background: url("images/blackwatchtartan.jpg");
+    /*background: url("images/blackwatchtartan.jpg");*/
+    background: url("images/macleod.png");
     background-repeat: repeat;
     color: #747474;
-    font: 13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif; /*change this to em*/
+    font-size: 13px; /*change this to em*/
+    font-family: ArimoRegular, Arial, Helvetica, sans-serif;
     /* min-width: 320px; not supported on ie8, firefox 4, opera 11 and safari 5*/
     margin-left: auto;
     margin-right: auto;
@@ -43,6 +61,8 @@ a:active {
     margin-right: auto;
     background: #ffffff;
     position: relative;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
 }
 
 #header {
@@ -68,13 +88,14 @@ a:active {
     border-top: 1px solid #bbb;
     /*width: 95%;*/
     padding: 10px 0;
+    font-family: CinzelDecorateRegular, georgia, "times new roman", times, serif;
 }
 
-#navbar li {
+    #navbar li {
         display: inline;
         list-style-type: none;
         padding: 2em;
-}
+    }
 
 #mainnav a:link {
     color: #333;
@@ -104,6 +125,10 @@ a:active {
 
 #footer p.right {
     float: right;
+}
+
+.primaryarticle {
+    margin: 25px;
 }
 
 /*End Class selectors*/
