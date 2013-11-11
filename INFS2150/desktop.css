@@ -154,12 +154,17 @@ a:active {
 
 .twitter-widget {
     width: 100px;
+    vertical-align: top;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+.twocolumn {
+    display: inline-block;
 }
 /*End Class selectors*/
 
