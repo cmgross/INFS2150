@@ -38,7 +38,7 @@ body {
     background: url("images/blackwatchtartan.jpg");
     /*background: url("images/macleod.png");*/
     background-repeat: repeat;
-    color: #747474;
+    color: #010101;
     font-size: 13px; /*change this to em*/
     font-family: ArimoRegular, Arial, Helvetica, sans-serif;
     /* min-width: 320px; not supported on ie8, firefox 4, opera 11 and safari 5*/
