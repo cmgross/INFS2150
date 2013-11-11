@@ -1,5 +1,6 @@
 ﻿//TODO look at modernizer and semantic stuff, do I need them?
 
+3.) ?? which section next?
 
 
 

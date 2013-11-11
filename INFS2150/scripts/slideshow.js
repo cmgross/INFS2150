@@ -23,16 +23,11 @@ var Caption = new Array(); // don't change this
 // Caution: The number of Pictures *must*
 // equal the number of Captions!
 
-Picture[1] = 'images/braemarCarousel.jpg';
-Picture[2] = 'images/braemarCarousel.jpg';
-Picture[3] = 'images/braemarCarousel.jpg';
-Picture[4] = 'images/braemarCarousel.jpg';
-Picture[5] = 'images/braemarCarousel.jpg';
-Picture[6] = 'images/braemarCarousel.jpg';
-Picture[7] = 'images/braemarCarousel.jpg';
-Picture[8] = 'images/braemarCarousel.jpg';
-Picture[9] = 'images/braemarCarousel.jpg';
-Picture[10] = 'images/braemarCarousel.jpg';
+Picture[1] = 'images/carouselBraemar.jpg';
+Picture[2] = 'images/carouselCaber.jpg';
+Picture[3] = 'images/carouselGoofballs.jpg';
+Picture[4] = 'images/carouselWob.jpg';
+Picture[5] = 'images/carouselHammer.jpg';
 
 // Specify the Captions...
 // To add more captions, just continue
@@ -42,16 +37,11 @@ Picture[10] = 'images/braemarCarousel.jpg';
 // Caution: The number of Captions *must*
 // equal the number of Pictures!
 
-Caption[1] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[2] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[3] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[4] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[5] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[6] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[7] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[8] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[9] = "An amateur athlete throwing the 22lb Braemar stone.";
-Caption[10] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[1] = "An amateur athlete throwing a 22lb Braemar stone.";
+Caption[2] = "An amateur athlete picking up a 100lb caber.";
+Caption[3] = "Athletes goofing around";
+Caption[4] = "An amateur athlete throwing a 56lb weight over a bar.";
+Caption[5] = "A masters athlete throwing a 22lb heavy hammer.";
 
 // =====================================
 // Do not edit anything below this line!

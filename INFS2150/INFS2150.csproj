@@ -70,7 +70,11 @@
   <ItemGroup>
     <Content Include="contact.html" />
     <Content Include="images\blackwatchtartan.jpg" />
-    <Content Include="images\logo1.png" />
+    <Content Include="images\carouselBraemar.jpg" />
+    <Content Include="images\carouselCaber.jpg" />
+    <Content Include="images\carouselGoofballs.jpg" />
+    <Content Include="images\carouselHammer.jpg" />
+    <Content Include="images\carouselWob.jpg" />
     <Content Include="images\macleod.png" />
     <Content Include="images\PittsburghHighlandGamesLogo.png" />
     <Content Include="index.html" />
