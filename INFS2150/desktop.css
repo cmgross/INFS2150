@@ -146,11 +146,9 @@ a:active {
     margin: 25px;
 }
 
-/*.caption {
-    font-family: Arial;
-    font-weight: bold;
-    color: #123456;
-}*/
+.caption {
+    font-style: italic;
+}
 
 .twitter-widget {
     width: 100px;
@@ -161,9 +159,10 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    text-align: center;
 }
 
-.twocolumn {
+.column {
     display: inline-block;
 }
 /*End Class selectors*/

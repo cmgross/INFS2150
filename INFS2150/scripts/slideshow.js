@@ -23,16 +23,16 @@ var Caption = new Array(); // don't change this
 // Caution: The number of Pictures *must*
 // equal the number of Captions!
 
-Picture[1] = 'Image001.jpg';
-Picture[2] = 'Image002.jpg';
-Picture[3] = 'Image003.jpg';
-Picture[4] = 'Image004.jpg';
-Picture[5] = 'Image005.jpg';
-Picture[6] = 'Image006.jpg';
-Picture[7] = 'Image007.jpg';
-Picture[8] = 'Image008.jpg';
-Picture[9] = 'Image009.jpg';
-Picture[10] = 'Image010.jpg';
+Picture[1] = 'images/braemarCarousel.jpg';
+Picture[2] = 'images/braemarCarousel.jpg';
+Picture[3] = 'images/braemarCarousel.jpg';
+Picture[4] = 'images/braemarCarousel.jpg';
+Picture[5] = 'images/braemarCarousel.jpg';
+Picture[6] = 'images/braemarCarousel.jpg';
+Picture[7] = 'images/braemarCarousel.jpg';
+Picture[8] = 'images/braemarCarousel.jpg';
+Picture[9] = 'images/braemarCarousel.jpg';
+Picture[10] = 'images/braemarCarousel.jpg';
 
 // Specify the Captions...
 // To add more captions, just continue
@@ -42,16 +42,16 @@ Picture[10] = 'Image010.jpg';
 // Caution: The number of Captions *must*
 // equal the number of Pictures!
 
-Caption[1] = "This is the first caption.";
-Caption[2] = "This is the second caption.";
-Caption[3] = "This is the third caption.";
-Caption[4] = "This is the fourth caption.";
-Caption[5] = "This is the fifth caption.";
-Caption[6] = "This is the sixth caption.";
-Caption[7] = "This is the seventh caption.";
-Caption[8] = "This is the eighth caption.";
-Caption[9] = "This is the ninth caption.";
-Caption[10] = "This is the tenth caption.";
+Caption[1] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[2] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[3] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[4] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[5] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[6] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[7] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[8] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[9] = "An amateur athlete throwing the 22lb Braemar stone.";
+Caption[10] = "An amateur athlete throwing the 22lb Braemar stone.";
 
 // =====================================
 // Do not edit anything below this line!
