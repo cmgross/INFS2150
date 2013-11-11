@@ -82,6 +82,7 @@
     <Content Include="LicenseInfo.txt" />
     <Content Include="scripts\facebook.js" />
     <Content Include="scripts\modernizr-1.6.min.js" />
+    <Content Include="scripts\scripts.js" />
     <Content Include="scripts\semantic.js" />
     <Content Include="desktop.css" />
     <Content Include="scripts\slideshow.js" />

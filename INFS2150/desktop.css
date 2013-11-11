@@ -33,6 +33,10 @@ section {
     margin-bottom: 20px;
 }
 
+img {
+    border-style: none;
+}
+
 body {
     background: #ffffff;
     background: url("images/blackwatchtartan.jpg");
