@@ -68,7 +68,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contact.html" />
     <Content Include="images\blackwatchtartan.jpg" />
     <Content Include="images\carouselBraemar.jpg" />
     <Content Include="images\carouselCaber.jpg" />
@@ -77,6 +76,7 @@
     <Content Include="images\carouselWob.jpg" />
     <Content Include="images\macleod.png" />
     <Content Include="images\PittsburghHighlandGamesLogo.png" />
+    <Content Include="contact.html" />
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="LicenseInfo.txt" />
