@@ -33,6 +33,10 @@ section {
     margin-bottom: 20px;
 }
 
+legend {
+    font-weight: bold;
+}
+
 img {
     border-style: none;
 }
@@ -52,6 +56,10 @@ body {
 
 h1, h2, h3 {
     font-family: CinzelDecorativeBold, georgia, "times new roman", times, serif;
+}
+
+fieldset {
+    border: 0;
 }
 
 a:link {
@@ -146,6 +154,59 @@ p {
 #footer p.right {
     float: right;
 }
+
+#contactinfo label {
+    display: block;
+    position: relative;
+    margin: 12px 0;
+}
+
+#contactinfo input {
+    position: absolute;
+    left: 100px;
+    -moz-box-shadow: 2px 2px 2px #888888;
+    -webkit-box-shadow: 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#gamesspecific {
+    margin-top: 20px;
+}
+
+    #gamesspecific label {
+        display: block;
+        position: relative;
+        margin: 12px 0;
+    }
+
+    #gamesspecific select {
+        position: absolute;
+        left: 100px;
+        -moz-box-shadow: 2px 2px 2px #888888;
+        -webkit-box-shadow: 2px 2px 2px #888888;
+        box-shadow: 2px 2px 2px #888888;
+    }
+
+#additionalinfo {
+    margin-top: 20px;
+}
+
+    #additionalinfo label {
+        display: block;
+    }
+
+    #additionalinfo textarea {
+        display: block;
+        -moz-box-shadow: 2px 2px 2px #888888;
+        -webkit-box-shadow: 2px 2px 2px #888888;
+        box-shadow: 2px 2px 2px #888888;
+    }
+
+#submitbutton {
+    border: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
 /*End ID selectors*/
 
 /*Class selectors*/
@@ -181,8 +242,19 @@ p {
     width: 75%;
 }
 
+.smallleftcolumn {
+    width: 60%;
+    vertical-align: top;
+}
+
 .rightcolumn {
     margin-left: 30px;
 }
+
+.divider {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
 /*End Class selectors*/
 

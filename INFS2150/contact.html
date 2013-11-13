@@ -23,33 +23,73 @@
             </ul>
         </nav>
         <article class="pagecontent">
-            <section>
-                <figure class="center">
-                    <img src="images/carouselBraemar.jpg" id="PictureBox" width="600" height="300" alt="People wearing kilts and throwing stones and trees" />
-                    <figcaption id="CaptionBox" class="caption"></figcaption>
+            <section class="divider">
+                <div class="column smallleftcolumn">
+                    <h1>Interested in learning more?</h1>
+                    <p class="bottomspacer">
+                        The Highland games are all about having fun and a sense of community, where we all help each other.
+                        If you are interested in learning more, we'd encourage you to come out to a local pratice and give it a try!
+                        Please fill out the below form so we can find a time that works for everyone, and that so we bring the
+                        correct equipment for your class and experience level.
+                    </p>
+                    <p>If you aren't sure about what class you'd fit into, please read the information we have about the different classes <a href="classes.html">here</a>.</p>
+                </div>
+                <figure class="column rightcolumn">
+                    <img src="images/contactHelping.jpg" width="240" height="320" alt="Two athletes helping a third with a pitchfork" />
+                    <!--<figcaption id="CaptionBox" class="caption">Everyone learns from each other!</figcaption>-->
                 </figure>
             </section>
             <section>
-                <div class="column leftcolumn">
-                    <h1>What are the Scottish Highland Games?</h1>
-                    <p class="bottomspacer">
-                        The true origins of the very diverse Scottish Heavy Athletic events have been lost to time, but likely started when Celtic
-                        clans gathered to barter or sell their goods or at festival times. During these gatherings, informal contests of strength, agility and endurance between the men were also held.
-                        Being farmers as well as warriors, these athletic contests were based on similar activities utilizing the items at hand, such as stones, pitchforks, bales of hay, and tree trunks.
-                        Clan chiefs would use these contests to select the best men for his men at arms and couriers.
-                        In ancient times, standing armies in the Celtic Nations were very rare, causing the defense of the country to fall warrior-farmers supplied by the clans.
-                        To this end, King Malcolm III Canmore held the first organized highland games at Braemar in 1057.
-                    </p>
-                    <p>
-                        During the 1800s, Sir Walter Scott's novels sparked a revival of interest in things Scottish.
-                        New Highland Games were organized, with their emphasis shifted towards a purely sporting activity, and the Highland games held today all over the world closely resemble those that started in the 1800s.
-                        These competitions require strength, agility, endurance, a kilt, and a good sense of humor.
-                        Check out the other sections for more information!
-                    </p>
-                </div>
-                <p class="twitter-widget column">
-                    <a class="twitter-timeline" href="https://twitter.com/search?q=%23highlandgames" data-widget-id="399340910825054208">Tweets about "#highlandgames"</a>
-                </p>
+                <form id="contactform">
+                    <fieldset id="contactinfo">
+                        <legend>Contact Info</legend>
+                        <label for="nameinput">
+                            Name
+                            <input type="text" id="nameinput" name="name" placeholder="First and last name" />
+                        </label>
+                        <label for="emailinput">
+                            Email
+                            <input type="email" id="emailinput" name="email" placeholder="address@example.com" />
+                        </label>
+                        <label for="phoneinput">
+                            Phone
+                            <input type="text" id="phoneinput" name="phone" />
+                        </label>
+                    </fieldset>
+                    <fieldset id="gamesspecific">
+                        <legend>Highland Games Specific Info</legend>
+                        <label for="classinput">
+                            Class
+                            <select id="classinput" name="classinput">
+                                <option value=""></option>
+                                <option value="Amateur">Amateur - Male younger than 40</option>
+                                <option value="Master">Master - Male older than 40</option>
+                                <option value="Women">Women</option>
+                                <option value="Pro">Pro - Any age, get paid to compete!</option>
+                            </select>
+                        </label>
+                        <label for="experienceinput">
+                            Experience
+                            <select id="experienceinput" name="experienceinput">
+                                <option value=""></option>
+                                <option value="none">None</option>
+                                <option value="some">I've thrown things before</option>
+                                <option value="experienced">I've competed before, I just want to pratice!</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset id="additionalinfo">
+                        <legend>Additional Information</legend>
+                        <label for="notes">
+                            Notes
+                            <textarea id="notes" name="notes" rows="4" cols="60"></textarea>
+                        </label>
+                    </fieldset>
+                    <fieldset id="submitbutton">
+                        <input type="submit" id="submit" value="Submit Request" onclick="checkReqFields();" />
+                    </fieldset>
+                </form>
+                <p id="message"></p>
             </section>
         </article>
         <footer id="footer">

@@ -74,6 +74,7 @@
     <Content Include="images\carouselGoofballs.jpg" />
     <Content Include="images\carouselHammer.jpg" />
     <Content Include="images\carouselWob.jpg" />
+    <Content Include="images\contactHelping.jpg" />
     <Content Include="images\macleod.png" />
     <Content Include="images\PittsburghHighlandGamesLogo.png" />
     <Content Include="contact.html" />
