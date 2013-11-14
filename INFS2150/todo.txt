@@ -1,12 +1,12 @@
 ﻿Pages to Implement:
-1.) Classes
+
 2.) Organizations
 3.) Festivals
 4.) Kilts
 5.) Throws
 
 Grading Requirements:
-1.) Lists
+
 2.) Table
 3.) Video
 4.) Additional images
@@ -14,16 +14,5 @@ Grading Requirements:
 6.) Mobile version using @media rules and conditional style sheets
 
 Use: http://throwbros.blogspot.com/p/scottish-highland-games.html for info
-NEW DESIGN: http://www.cssm.org/
-http://camospecs.com/Article.asp?FictionID=22
-http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/
-http://html5reset.org/
-http://www.my-html-codes.com/html-5-coding
-http://www.htmlandcssbook.com/code-samples/chapter-09/
-http://www.carmichael.org/carmichael/?page_id=36
-http://www.ruralhillscottishfestivals.net/History.asp
-look at this page for layout
 http://www.standrewsmodesto.org/Ghistory.php
 http://tucsoncelticfestival.org/
-http://www.everythingaboutweb.com/html5-two-column-css-layout/
-http://www.designzzz.com/website-layout-tutorial-html-5-css-3/

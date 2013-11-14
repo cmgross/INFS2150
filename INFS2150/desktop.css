@@ -259,5 +259,13 @@ p {
 .classlist {
     margin-left: 25px;
 }
+
+.figurerow {
+    background-color: #bbb;
+    display: inline-block;
+}
+.figurerow figure {
+    margin: 10px;
+}
 /*End Class selectors*/
 
