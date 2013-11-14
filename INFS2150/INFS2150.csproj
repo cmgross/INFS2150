@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="classes.html" />
     <Content Include="fonts\Arimo-Regular.ttf" />
     <Content Include="fonts\CinzelDecorative-Regular.ttf" />
     <Content Include="fonts\CinzelDecorative-Bold.ttf" />

@@ -235,7 +235,7 @@ p {
 }
 
 .bottomspacer {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .leftcolumn {
@@ -256,5 +256,8 @@ p {
     border-bottom: 1px solid #bbb;
 }
 
+.classlist {
+    margin-left: 25px;
+}
 /*End Class selectors*/
 
