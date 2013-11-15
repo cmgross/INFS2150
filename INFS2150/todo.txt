@@ -1,12 +1,7 @@
 ﻿Pages to Implement:
-
 2.) Organizations
-3.) Festivals
 5.) Throws
-
 Grading Requirements:
-
-2.) Table
 3.) Video
 5.) Publish to thompson.rmu.edu and test on IE9 mode.
 6.) Mobile version using @media rules and conditional style sheets

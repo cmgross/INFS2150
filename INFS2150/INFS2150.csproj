@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="festivals.html" />
     <Content Include="images\blackwatch.png" />
     <Content Include="images\wallace.png" />
     <Content Include="kilts.html" />
