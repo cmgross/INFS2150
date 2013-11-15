@@ -1,16 +1,4 @@
-﻿function generateMenu() {
-    var links = "<li><a href='index.html'>Home</a></li>" +
-        "<li><a href='throws.html'>Throws</a></li>" +
-        "<li><a href='classes.html'>Classes</a></li>" +
-        "<li><a href='kilts.html'>Kilts</a></li>" +
-        "<li><a href='organizations.html'>Organizations</a></li>" +
-        "<li><a href='festivals.html'>Festivals</a></li>" +
-        "<li><a href='contact.html'>Sign Up</a></li>";
-    document.getElementById("mainnav").innerHTML = links;
-}
-
-
-function checkReqFields() {
+﻿function checkReqFields() {
     var name = document.getElementById("nameinput").value;
     var email = document.getElementById("emailinput").value;
     var phone = document.getElementById("phoneinput").value;
