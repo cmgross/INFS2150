@@ -2,14 +2,12 @@
 
 2.) Organizations
 3.) Festivals
-4.) Kilts
 5.) Throws
 
 Grading Requirements:
 
 2.) Table
 3.) Video
-4.) Additional images
 5.) Publish to thompson.rmu.edu and test on IE9 mode.
 6.) Mobile version using @media rules and conditional style sheets
 

@@ -43,8 +43,7 @@ img {
 
 body {
     background: #ffffff;
-    background: url("images/blackwatchtartan.jpg");
-    /*background: url("images/macleod.png");*/
+    background: url("images/blackwatchBackground.jpg");
     background-repeat: repeat;
     color: #010101;
     font-size: 13px; /*change this to em*/
@@ -266,6 +265,7 @@ p {
 }
 .figurerow figure {
     margin: 10px;
+    display: inline-block;
 }
 /*End Class selectors*/
 

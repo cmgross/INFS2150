@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\blackwatch.png" />
+    <Content Include="images\wallace.png" />
     <Content Include="kilts.html" />
     <Content Include="classes.html" />
     <Content Include="fonts\Arimo-Regular.ttf" />
@@ -70,7 +72,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\blackwatchtartan.jpg" />
+    <Content Include="images\blackwatchBackground.jpg" />
     <Content Include="images\carouselBraemar.jpg" />
     <Content Include="images\carouselCaber.jpg" />
     <Content Include="images\carouselGoofballs.jpg" />
