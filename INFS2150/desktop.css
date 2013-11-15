@@ -126,6 +126,19 @@ p {
         padding: 1em;
     }
 
+#throwmenu {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    #throwmenu li {
+        display: inline;
+        list-style-type: none;
+        padding: 1em;
+    }
+
 #mainnav a:link {
     color: #333;
     text-decoration: none;
@@ -208,8 +221,8 @@ p {
 }
 
 #festivals {
-    border-spacing:0;
-    border-collapse:collapse
+    border-spacing: 0;
+    border-collapse: collapse;
 }
 /*End ID selectors*/
 
@@ -268,10 +281,12 @@ p {
     background-color: #bbb;
     display: inline-block;
 }
-.figurerow figure {
-    margin: 10px;
-    display: inline-block;
-}
+
+    .figurerow figure {
+        margin: 10px;
+        display: inline-block;
+    }
+
 .festivalname {
     text-align: left;
 }
