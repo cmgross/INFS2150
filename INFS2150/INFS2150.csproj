@@ -57,6 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\glsaa.gif" />
+    <Content Include="images\heavies.png" />
+    <Content Include="images\masa.png" />
     <Content Include="throws.html" />
     <Content Include="organizations.html" />
     <Content Include="festivals.html" />
